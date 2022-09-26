@@ -1,0 +1,42 @@
+head {
+	 background-color: #FF686B
+  }
+body {
+    background: linear-gradient(#C689C6 1%, #f860d7 51%, #3cf1d9 100%);
+	 background-color: #FF686B
+  }
+  .text {
+	
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+	font: italic small-caps bold 16px/2 cursive;
+	font-size: 250%
+  }
+.text2 {
+    text-decoration: none;
+    color: mediumvioletred;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+	font: italic small-caps bold 16px/2 cursive;
+	font-size: 220%
+  }
+.list {
+    text-decoration: none;
+    color: mediumvioletred;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+	font: italic small-caps bold 16px/2 cursive;
+	font-size: 150%
+  }
+.headlines {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+	font: italic small-caps bold 16px/2 cursive;
+	font-size: 180%
+  }
+  
+    
