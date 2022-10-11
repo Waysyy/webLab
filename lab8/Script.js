@@ -15,7 +15,6 @@ function compatibility() {
     var secondName = prompt("Её имя");
 
     alert(`Совместимость: ${firstName} и ${secondName} ` + Math.floor(Math.random() * 100) + "%")
-
 }
 
 function IMT() {
@@ -33,7 +32,6 @@ function IMT() {
         alert("У вас излишек веса");
     if (imtRes > 30)
         alert("Ожирение");
-
 }
 
 function yearFunc() {
@@ -46,7 +44,6 @@ function yearFunc() {
     else {
         alert("Не является високосным");
     }
-
 }
 
 function dinner() {
@@ -58,6 +55,4 @@ function dinner() {
         choose[i] = person;
     }
     alert("Ужин оплачивает: " + choose[Math.floor(Math.random() * size)]);
-
-
 }
