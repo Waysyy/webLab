@@ -1,19 +1,27 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>React</title>
+    
+    <!-- Load React. -->
+    <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 
-<head>
-  <meta charset="utf-8">
-  <title>react</title>
- 
-</head>
+    <!-- Load our React component. -->
+    <script type="text/babel" src="index.js"></script>
+  </head>
+  <body>
 
-<body>
+    <h2>Add React in One Minute</h2>
+    <p>This page demonstrates using React with no build tooling.</p>
+    <p>React is loaded as a script tag.</p>
 
-  
-  <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
-<script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
-<script src="lab11.js"></script>
+    <!-- We will put our React component inside this div. -->
+    <div id='root'></div>
 
-</body>
 
+  </body>
 </html>
