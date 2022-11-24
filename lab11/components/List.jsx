@@ -1,5 +1,5 @@
 function List (){
-    const numbers = ["Суши", "Чипсеки","Сухареки","Шаурма", "Рамен", "Вок", "Пицца"];
+    const numbers = ["Суси", "Чипсеки","Сухареки","Шаурма", "Рамен", "Вок", "Питса"];
     const listItems = numbers.map((number) =>
     <li>{number}</li>
     );
@@ -8,7 +8,9 @@ function List (){
     </div>);
   }
   
-  const root = ReactDOM.createRoot(document.getElementById("root"));
-  root.render(
-    <List />
-    );
+  // const root = ReactDOM.createRoot(document.getElementById("root"));
+  // root.render(
+  //   <List />
+  //   );
+
+  export default List;

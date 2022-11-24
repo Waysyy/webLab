@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "browserify": "^17.0.0",
+    "local-web-server": "^5.2.1"
+  }
+}
